@@ -1,0 +1,2 @@
+0|28|bottom|( cpu memory custom/cpuinfo custom/gpuinfo ) ( idle_inhibitor clock ) ( hyprland/workspaces )|( hyprland/window )|( backlight network pulseaudio pulseaudio#microphone custom/updates hyprland/language ) ( privacy tray battery ) ( custom/wallchange custom/theme custom/wbar custom/cliphist custom/power )
+1|28|top|( cpu memory custom/cpuinfo disk ) ( idle_inhibitor clock ) ( hyprland/workspaces )|( hyprland/window )|( backlight network pulseaudio custom/updates hyprland/language custom/notifications ) ( privacy custom/vpn tray battery ) 

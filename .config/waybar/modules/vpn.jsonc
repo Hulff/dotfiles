@@ -1,0 +1,9 @@
+"custom/vpn": {
+    "tooltip": true,
+    "interval": 2,
+    "tooltip-format":"left-click network manager \nright click toggle vpn atlântico",
+    "on-click": "nm-connection-editor",
+    "exec": "/home/hulff/.config/waybar/modules/scripts/vpn-status.sh",
+    "on-click-right": "/home/hulff/.config/waybar/modules/scripts/toggle-vpn.sh"
+},
+
