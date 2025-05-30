@@ -1,0 +1,58 @@
+console_title_template = '{{ .Shell }} in {{ .Folder }}'
+version = 3
+final_space = true
+
+[[blocks]]
+type = "prompt"
+alignment = "left"
+newline=true
+    [[blocks.segments]]
+    type = "os"
+    style = "diamond"
+    foreground='#ffffff'
+    background=''
+    trailing_diamond=""
+    leading_diamond=""
+    template=' {{.Icon}}  '
+   [[blocks.segments]]
+    type = "path"
+    style = "plain"
+    foreground="#D4CCFF"
+    background = ""
+    template='{{.Path}}'
+    [blocks.segments.properties]
+     style = "agnoster" 
+     folder_icon=".. "
+     folder_separator_icon="/"
+     home_icon="~ "
+
+[[blocks]]
+type='prompt'
+alignment='right'
+    [[blocks.segments]]
+    type = "executiontime"
+    style = 'plain'
+    background = ""
+    template = " {{ div .Ms 1000 }}s"
+
+    [blocks.segments.properties]
+    threshold = 500
+    style = "austin"
+    always_enabled = true
+
+#transient prompt 
+[transient_prompt]
+background = "transparent"
+template = " "   
+     
+[[blocks]]
+type = "prompt"
+alignment = "left"
+newline=true
+    [[blocks.segments]]
+    type='text'
+    style='plain'
+    template=''
+
+
+
