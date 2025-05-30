@@ -1,5 +1,5 @@
-# These are my dotfiles
-# im on arch using HyDe project to setup my Hyprland
+# These are my dotfiles 
+## Im on Arch using HyDe project to setup my Hyprland
 
 This directory contains the dotfiles for my system
 
